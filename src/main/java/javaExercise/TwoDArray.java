@@ -1,0 +1,22 @@
+package javaExercise;
+
+import java.util.Scanner;
+
+public class TwoDArray {
+ 
+	 public static void main(String[] args) {
+		/*Scanner sc = new Scanner(System.in);
+		System.out.print("How many element in array:");
+		int elementNum = sc.nextInt();*/
+		
+		 int arr [][] = {{1,2,3,}, {4,5,6,7,}, {11,12,13,14,15}};
+		 
+		 for(int i = 0;i<arr.length;i++) {
+			 for(int j=0; j<arr[i].length;j++) {
+				 System.out.print(arr[i][j]+"\t");
+				 
+			 }
+			 System.out.println("");
+		 }
+	}
+}
